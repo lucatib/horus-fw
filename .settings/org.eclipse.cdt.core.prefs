@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371.839393945/PATH/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371.839393945/PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371.839393945/PATH/value=/bin\:/usr/x86_64-pc-linux-gnu/gcc-bin/6.3.0\:/usr/x86_64-pc-linux-gnu/armv7a-hardfloat-linux-gnueabi/gcc-bin/5.4.0\:/usr/lib/llvm/4/bin\:/opt/android-sdk-linux/tools\:/usr/local/bin\:/usr/bin\:/opt/bin\:/usr/lib64/subversion/bin\:/opt/vmware/bin\:/home/user/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/\:/home/user/.arduinocdt/packages/arduino/tools/avrdude/6.3.0-arduino9/bin/\:/home/user/.arduinocdt/packages/arduino/tools/avrdude/6.3.0-arduino9/etc/
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371.839393945/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371.839393945/appendContributed=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371/PATH/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371/PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371/PATH/value=/bin\:/usr/x86_64-pc-linux-gnu/gcc-bin/6.3.0\:/usr/x86_64-pc-linux-gnu/armv7a-hardfloat-linux-gnueabi/gcc-bin/5.4.0\:/usr/lib/llvm/4/bin\:/opt/android-sdk-linux/tools\:/usr/local/bin\:/usr/bin\:/opt/bin\:/usr/lib64/subversion/bin\:/opt/vmware/bin\:/home/user/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/\:/home/user/.arduinocdt/packages/arduino/tools/avrdude/6.3.0-arduino9/bin/
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.999873371/appendContributed=true
