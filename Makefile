@@ -44,8 +44,12 @@ FUSES      = -U hfuse:w:0xd2:m -U lfuse:w:0xff:m
 
 # Tune the lines below only if you know what you are doing:
 
+#Gentoo build:
+#CFLAGS += -B/usr/avr/lib/avr5/
+#CFLAGS += -L/usr/x86_64-pc-linux-gnu/avr/lib/
+
 AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -B 10 -F
-COMPILE = avr-gcc -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) -I. -ffunction-sections
+COMPILE = avr-gcc -Wall -Os -DF_CPU=$(CLOCK) $(CFLAGS) -mmcu=$(DEVICE) -I. -ffunction-sections
 
 # symbolic targets:
 all:	horus-fw.hex

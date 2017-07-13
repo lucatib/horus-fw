@@ -44,3 +44,9 @@ make
 ```
 
 The binary *horus-fw.hex* can be flashed with [Horus GUI](https://github.com/bqlabs/horus).
+
+###Gentoo
+sudo USE="-openmp -hardened -sanitize -vtv" crossdev -s4 --stable --portage --verbose --target avr --gcc 4.9.4
+sudo ln -s /usr/lib/binutils/avr/2.28/ldscripts /usr/avr/lib/ldscripts
+
+
